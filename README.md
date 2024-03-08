@@ -4,7 +4,7 @@ Code to run a fully automated mask on text watermark.
 
 # Instructions
 
-1. [Download] the Github Repository
+1. [Download](https://github.com/AuCourDe/watermark_mask/archive/refs/heads/master.zip) the Github Repository
 
 2. Download and install [Python3](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installing/) if necessary. For this project recomended Python is 3.9 (maximum 3.11 due to tenssorflow compatibile)
 
