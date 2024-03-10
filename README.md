@@ -10,11 +10,16 @@ Code to run a fully automated mask on text watermark.
 
 3. Install libraries with `pip3 install -r requirements.txt` or `python3 -m pip install -r requirements.txt` .
 
-4. Run `python3 main.py` in your code editor. Try this project on sample file then set path to your image (instead of sample.jpg).
+4. Run `python3 main.py` in your code editor. Try this project on sample file or set path to your image (instead of sample.jpg).
 
-5. You have ready to use mask for watermark. This mask can be procesed fully automaeted to remove watermark be AI model (including Stable Diffusion) for example lama-cleaner aka IOPaint (https://github.com/Sanster/IOPaint)
+5. Your mask for watermark is ready to use. This mask can be procesed fully automated to remove watermark by AI model (including Stable Diffusion) for example lama-cleaner aka IOPaint (https://github.com/Sanster/IOPaint)
+
+6. Lama-Cleaner instalation
 `pip3 install iopaint`
+
+7. Run Lama-Cleaner
 `iopaint start --model=lama --device=cpu --port=8080`
+
  or
 
 `iopaint run --model=lama --device=cpu \
