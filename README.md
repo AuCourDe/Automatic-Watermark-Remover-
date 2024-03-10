@@ -2,6 +2,11 @@
 
 Code to run a fully automated mask on text watermark.
 
+<p align="center">
+    <img width="500" height="250" src="https://github.com/AuCourDe/watermark_mask/blob/master/sample.jpg" alt="sample oof picture to mask">
+    <img width="500" height="250" src="https://github.com/AuCourDe/watermark_mask/blob/master/samplemask.png" alt="sample of mask">
+</p>
+
 # Instructions
 
 1. [Download](https://github.com/AuCourDe/watermark_mask/archive/refs/heads/master.zip) the Github Repository
