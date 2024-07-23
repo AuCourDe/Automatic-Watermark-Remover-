@@ -44,9 +44,9 @@ V2
 
 todo:
 all coments in english
-optimization
+optimization (cache remove, chunk remove).
 verification if IOpaint has finished first job then run with next folder instead of run many IOpain simultaneously.
 
 
 V1
-Create mask for picture
+- Create mask for picture
