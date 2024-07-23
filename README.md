@@ -31,3 +31,22 @@ Fully automated mask creation on text based watermarks.
  or
 `iopaint start --model=lama --device=cpu --port=8080`
 
+Changes log:
+
+V2
+- Input path to folder of pictures
+- Input path to folder including folders of pictures
+- Full screen screenshots are now accepted. Part of screenshot containing picture now is croped to picture size only.
+- QR code detection (partly visible QR codes usually not detected)
+- Automatic run IOpaint after mask of folder. If many folders than many IOpaint can run simultaneously - performance decrease. 
+- Watermark detection work on GPU, IOPaint running on CPU to not fight for resources.
+- Estimated time, log
+
+todo:
+all coments in english
+optimization
+verification if IOpaint has finished first job then run with next folder instead of run many IOpain simultaneously.
+
+
+V1
+Create mask for picture
