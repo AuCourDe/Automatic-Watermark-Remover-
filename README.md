@@ -43,8 +43,10 @@ V2
 - Estimated time, log
 
 todo:
-all coments in english
+all coments in english.
+
 optimization (cache remove, chunk remove).
+
 verification if IOpaint has finished first job then run with next folder instead of run many IOpain simultaneously.
 
 
