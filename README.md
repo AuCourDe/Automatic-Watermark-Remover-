@@ -1,6 +1,6 @@
 # Automated Watermark Mask
 
-Code to run a fully automated mask on text watermark.
+Fully automated mask creation on text based watermarks. 
 
 <p align="center">
     <img width="500" height="250" src="https://github.com/AuCourDe/watermark_mask/blob/master/sample.jpg" alt="sample oof picture to mask">
@@ -17,17 +17,17 @@ Code to run a fully automated mask on text watermark.
 
 4. Run `python3 main.py` in your code editor. Try this project on sample file or set path to your image (instead of sample.jpg).
 
-5. Your mask for watermark is ready to use. This mask can be procesed fully automated to remove watermark by AI model (including Stable Diffusion) for example lama-cleaner aka IOPaint (https://github.com/Sanster/IOPaint)
+5. Your mask for watermark remove is ready to use. This mask can be procesed to remove watermark fully automated  by generative AI model (run in Stable Diffusion). To fast remove watermark I recomend lama-cleaner aka IOPaint (https://github.com/Sanster/IOPaint)
 
-6. Lama-Cleaner instalation
+6. Lama-Cleaner/IOpaint instalation
 `pip3 install iopaint`
 
-7. Run Lama-Cleaner
-`iopaint start --model=lama --device=cpu --port=8080`
-
- or
-
+7. Run Lama-Cleaner / IOpaint
 `iopaint run --model=lama --device=cpu \
 --image=/path/to/image_folder \
 --mask=/path/to/mask_folder \
 --output=output_dir`
+
+ or
+`iopaint start --model=lama --device=cpu --port=8080`
+
