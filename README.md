@@ -24,8 +24,7 @@ Automatic creation of watermark masks. Automatic removal of watermarks.
 Run [pip] python main.py in your code editor. Set path to your folder with pictures or subfolders
 
 
-Changes log:
-
+#Changes log:
 V2
 -Input path to the folder containing pictures.
 -Input path to a folder that includes subfolders with pictures.
