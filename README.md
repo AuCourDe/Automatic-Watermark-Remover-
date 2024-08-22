@@ -14,7 +14,7 @@ Automatic creation of watermark masks. Automatic removal of watermarks.
 # Instalation
 
 1. [Download](https://github.com/AuCourDe/watermark_mask/archive/refs/heads/master.zip) the Github Repository
-2. Download and install Python 3 and pip if necessary. The recommended Python version for this project is 3.9 (up to a maximum of 3.11 due to TensorFlow compatibility).
+2. Download and install Python 3 and pip if necessary. The recommended Python version for this project is 3.9 (up to 3.11 due to TensorFlow compatibility).
 3. Install the required libraries with pip install `pip -r requirements.txt` or `python -m pip install -r requirements.txt`
 4. Install Tesseract [Download](https://github.com/UB-Mannheim/tesseract/wiki) and set enviroment path.
 5. Install IO Paint `pip install IOPaint`
