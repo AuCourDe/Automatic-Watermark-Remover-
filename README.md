@@ -21,23 +21,23 @@ Automatic creation of watermark masks. Automatic removal of watermarks.
 
 
 # Usage
-Run [pip] (python main.py) in your code editor. Set path to your folder with pictures or subfolders
+Run `python main.py` in your code editor. Set path to your folder with pictures or subfolders
 
 
 # Changes log:
 V2
--Input path to the folder containing pictures.
--Input path to a folder that includes subfolders with pictures.
--Full-screen screenshots are now accepted. The part of the screenshot containing the picture is cropped to the picture’s size only.
--QR code detection (partially visible QR codes are usually not detected).
--IOpaint runs automatically after processing the mask of a folder. If there are many folders, multiple instances of IOpaint may run simultaneously, which can decrease performance.
--Watermark detection is performed on the GPU, while IOpaint runs on the CPU to avoid resource conflicts.
--Estimated time and logs are provided.
+- Input path to the folder containing pictures.
+- Input path to a folder that includes subfolders with pictures.
+- Full-screen screenshots are now accepted. The part of the screenshot containing the picture is cropped to the picture’s size only.
+- QR code detection (partially visible QR codes are usually not detected).
+- IOpaint runs automatically after processing the mask of a folder. If there are many folders, multiple instances of IOpaint may run simultaneously, which can decrease performance.
+- Watermark detection is performed on the GPU, while IOpaint runs on the CPU to avoid resource conflicts.
+- Estimated time and logs are provided.
 
 To Do:
--Translate all comments to English.
--Optimize (cache removal, chunk removal).
--Verify if IOpaint has completed its first job before running the next folder, instead of running multiple instances of IOpaint simultaneously.
+- Translate all comments to English.
+- Optimize (cache removal, chunk removal).
+- Verify if IOpaint has completed its first job before running the next folder, instead of running multiple instances of IOpaint simultaneously.
 
 V1
 - Create a mask for a picture.
