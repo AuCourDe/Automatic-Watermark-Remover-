@@ -2,7 +2,7 @@
 Automatic creation of watermark masks. Automatic removal of watermarks.
 
 <p align="center">
-<img width="500" height="250" src="https://github.com/AuCourDe/watermark_mask/procesed.jpg" alt="procesed file"></p>
+<img width="500" height="250" src="https://github.com/AuCourDe/watermark_mask/blob/master/processed.jpg" alt="procesed file"></p>
 
 # Functions
 - Loads a file that contains watermarks. Creates a mask for the watermarks. Removes the watermarks using generative AI (external application IO Paint -> [Download](https://github.com/Sanster/IOPaint) or [pip] (https://github.com/Sanster/IOPaint)).
