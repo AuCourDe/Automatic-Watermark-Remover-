@@ -5,7 +5,7 @@ Automatic creation of watermark masks. Automatic removal of watermarks.
 <img src="https://github.com/AuCourDe/watermark_mask/blob/master/processed.jpg" alt="procesed file"></p>
 
 # Functions
-- Loads a file that contains watermarks. Creates a mask for the watermarks. Removes the watermarks using generative AI (external application IO Paint -> [Download](https://github.com/Sanster/IOPaint) or (https://github.com/Sanster/IOPaint)).
+- Load file that contain watermark. Create a mask for the watermark. Removes the watermark using generative AI (external application IO Paint -> [Download](https://github.com/Sanster/IOPaint) or (https://github.com/Sanster/IOPaint)).
 - Handles files that are screenshots of entire screens, where the image to be cleaned of watermarks is located. The application attempts to identify the location of the actual image and crops it to its correct size.
 - Performs actions on all subfolders after specifying the path to a folder.
 - For improved performance, watermark detection is performed using the GPU, and watermark removal is done on the CPU. If no dedicated GPU, everything is done on the CPU.
